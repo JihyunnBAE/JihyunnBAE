@@ -111,34 +111,51 @@ header h1{
     color: rgb(82, 204, 151);
 }
 
-.sub2 p, .sub2 p2 {
+.sub2 p {
+    margin-bottom: 2px;
+    margin-left: 180px;
     padding-right: 30px;
     text-align: right;
-    color: rgb(82, 204, 151);
-    font-family: 'Gothic A1', sans-serif;
+    color:  rgb(57, 155, 113);
+    font-family: 'Quicksand', sans-serif;
     transition: background-color 0.3s;
     font-size: 12px;
 }
 .sub2 p:hover {
     background-color: #d9d5d5;
 }
-.sub2 p2{
-    display: block;
+.sub2 p{
+    margin-bottom: 2px;
+    margin-left: 20%;
     padding-right: 30px;
+    text-align: right;
+    color:  rgb(57, 155, 113);
+    font-family: 'Quicksand', sans-serif;
+    transition: background-color 0.3s;
+    font-size: 12px;
+    display: block;
     padding-bottom: 5px;
     text-align: right;
     color: rgb(82, 204, 151);
-    font-family: 'Gothic A1', sans-serif;
+    font-family: 'Poppins', sans-serif;
     transition: background-color 0.3s;
 }
 .sub2 p2:hover {
     color:#b7b7b7;
 }
 .icon {
-    padding-right: 30px;
+    margin-left: 65%;
+    margin-right: 30px;
+    margin-top: 2%;
+    display: inline-flex;
+    align-items: right;
+    justify-content: right;
+    justify-self: right;
     text-align: right;
-
-
+}
+.icon p {
+    margin: 0;
+    padding: 0;
 }
 .sub3{
     display: flex;
@@ -167,7 +184,7 @@ header h1{
 /* WORKOUTS */
 .sub-container{
     display: grid;
-    grid-template-columns: 60% 40%;
+    grid-template-columns: 6fr 4fr;
     grid-template-rows: auto;
     place-items: left;
     padding-top:20px;
@@ -176,34 +193,36 @@ header h1{
     font-family: 'critical';
     width: 100px;
     height: 100px;
-    margin-bottom: 30px;
-    margin-left: 440px;
-    margin-right: 30px;
+    margin-bottom: 3%;
+    margin-right: 3%;
     background-color: rgb(82, 204, 151);
     border-radius: 50%; /* 원 모양을 만듭니다 */
     display: flex;
     align-items: center;
     justify-content: center;
+    justify-self: right;
     color: #ffffff;
     font-size: 24px;
 }
 .work {
     display: inline-flex;
     flex-direction: column;
-    padding-left: 40px;
+    padding-left: 3%;
     
 }
 .work video {
-    width: 800px;
+    width: 95%;
     height: auto;
 }
 .work img {
     padding-bottom: 10px;
-    width: 800px;
+    width: 95%;
     height: auto;
 }
 .explain{
-    padding-right: 40px;
+    padding-right: 3%;
+    
+    
 }
 .explain h1 {
     font-family: 'critical';
@@ -216,10 +235,9 @@ header h1{
     font-family: 'Oswald', sans-serif;
 }
 .explain img {
-    width: 500px;
+    width: 90%;
     height: auto;
-    padding-top: 382px;
-    padding-left: 30px;
+    padding-left: 10%;
 }
 .explain a {
     font-family: 'Oswald', sans-serif;
@@ -227,7 +245,7 @@ header h1{
     font-weight: 400;
 }
 .work-lesechoir {
-    padding-left: 40px;
+    padding-left: 3%;
 }
 .work-lesechoir img{
     display: inline-flex;
